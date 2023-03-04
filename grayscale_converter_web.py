@@ -1,8 +1,10 @@
 import streamlit as st
 from PIL import Image  # pillow package
 
-st.subheader("Color to Grayscale Converter")
+# 修改page名称+增加page icon
+st.set_page_config(page_title="Grayscale Converter | ZYR", page_icon="🥝")
 
+st.subheader("Color to Grayscale Converter")
 
 # 通过上传获取图像
 uploaded_image = st.file_uploader("Upload Image")
